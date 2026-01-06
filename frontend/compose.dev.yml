@@ -1,0 +1,12 @@
+# compose.dev.yml
+services:
+  web:
+    build:
+      target: dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - WATCHPACK_POLLING=true

@@ -1,0 +1,27 @@
+/*card.module.css*/
+.card {
+    padding: 16px;
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    width: 25%;
+}
+.value {
+  font-size: 24px;
+  font-weight: 700;
+}
+.label {
+  color: #64748b;
+}
+.active { border-color: #10b981; }
+.busy { border-color: #f59e0b; }
+.updated { border-color: #6366f1; }
+
+.logo {
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    color: #1d4ed8;
+    border-radius: 5px;
+}

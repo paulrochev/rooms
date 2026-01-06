@@ -1,0 +1,44 @@
+/*footer.module.css*/
+.m {
+    display: flex;
+    justify-content: space-around;
+    width: 97%;
+    gap: 40%;
+    padding: 15px 15px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: #1d4ed8;
+    border-radius: 10px;
+}
+
+.text {
+    margin: auto 0;
+    color: #fff;
+    font-size:large;
+    font-weight: bold;
+}
+
+.secText {
+    margin-top: 1em;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.buttons {
+    margin: auto 0;
+}
+
+.button {
+    font-size: medium;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #1d4ed8;
+    border: none;
+    color: #fff;
+    margin: 0 3px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color:#1d4ed8;
+}

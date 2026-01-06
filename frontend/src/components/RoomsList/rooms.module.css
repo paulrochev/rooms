@@ -1,0 +1,19 @@
+.roomsList { margin-bottom: 24px; }
+
+.emptyState {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.emptyStateTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+.emptyStateDescription {
+  font-size: 14px;
+  color: #64748b;
+}
